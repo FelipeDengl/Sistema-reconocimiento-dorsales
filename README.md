@@ -26,7 +26,7 @@ La aplicación permite:
 - Clasificar y organizar las imágenes en carpetas correspondientes según el número detectado
 - Reducir el tiempo de organización de horas a segundos
 
-Esto permite procesar grandes volúmenes de imágenes de forma rápida, precisa y sin intervención manual.
+Esto permite procesar grandes volúmenes de imágenes de forma rápida y precisa.
 
 ## Vista previa
 
@@ -64,16 +64,6 @@ Ejecutar la aplicación:
 ```
 python app/app_gui_ocr.py
 ```
-
-## Caso de uso típico
-
-Antes:
-- 500 imágenes sin organizar
-- 2–4 horas de trabajo manual
-
-Después:
-- Organización automática en minutos
-- Clasificación precisa en carpetas por número
 
 ## Autor
 
