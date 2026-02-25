@@ -30,7 +30,7 @@ Esto permite procesar grandes volúmenes de imágenes de forma rápida, precisa 
 
 ## Vista previa
 
-![Interfaz principal](docs/images/interfaz.png)
+![Interfaz principal](images/interfaz.png)
 
 La interfaz permite cargar imágenes y visualizar el número detectado automáticamente.
 
