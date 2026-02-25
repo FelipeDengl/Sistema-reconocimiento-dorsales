@@ -1,0 +1,11 @@
+venv/
+venv311/
+__pycache__/
+*.pyc
+*.exe
+*.iss
+*.ps1
+debug_app_out/
+debug_scan_out/
+installer/
+out/
