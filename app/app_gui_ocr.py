@@ -255,7 +255,7 @@ class App(QMainWindow):
         # Aplica tema global inicial (oscuro por defecto)
         self._apply_theme()
 
-    # ---------- Tema global (oscuro/claro) ----------
+    # ---------- Tema (oscuro/claro) ----------
     def _apply_theme(self):
         app = QApplication.instance()
         if self.dark_mode:
@@ -301,7 +301,7 @@ class App(QMainWindow):
             """)
             self.view.set_theme(False)
 
-    # ---------- OCR en subproceso (cajas reescaladas a original) ----------
+    # ---------- OCR cajas reescaladas a original----------
     def run_ocr_in_subprocess(self, image_paths: List[Path]) -> List[ImageEntry]:
         tmpdir = Path(tempfile.mkdtemp(prefix="ocr_batch_"))
         inp_json = tmpdir / "in_images.json"
